@@ -1,14 +1,10 @@
-enum EProductType {
-  ELECTRO = 'электро',
-  ACOUSTIC = 'аккустика',
-  UCULELE = 'укулеле'
-}
+import { EProductType } from '../const';
 
 export type TProduct = {
   id: string;
   name: string;
   description: string;
-  addDate: string;
+  addDate: number;
   img: string;
   type: EProductType;
   article: string;
