@@ -1,4 +1,4 @@
-import { GUITAR_STRINGS_COUNTS, MAX_PRODUCT_PRICE, MIN_PRODUCT_PRICE } from './../../const';
+import { GUITAR_STRINGS_COUNTS, MAX_PRODUCT_PRICE, MIN_PRODUCT_PRICE } from '../../const';
 import faker from 'faker';
 import { TProduct } from '../../types/product';
 import { EProductType } from '../../const';

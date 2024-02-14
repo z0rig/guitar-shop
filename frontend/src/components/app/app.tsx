@@ -18,7 +18,7 @@ export const App = () => (
       <Route
         path={AppRoute.Add}
         element={
-          <PrivateRoute isAuthorazed={false}>
+          <PrivateRoute isAuthorazed>
             <AddItemPage/>
           </PrivateRoute>
         }
@@ -26,7 +26,7 @@ export const App = () => (
       <Route
         path={AppRoute.Edit}
         element={
-          <PrivateRoute isAuthorazed={false}>
+          <PrivateRoute isAuthorazed>
             <EditItemPage/>
           </PrivateRoute>
         }
@@ -34,7 +34,7 @@ export const App = () => (
       <Route
         path={AppRoute.Product}
         element={
-          <PrivateRoute isAuthorazed={false}>
+          <PrivateRoute isAuthorazed>
             <ProductPage/>
           </PrivateRoute>
         }
@@ -42,7 +42,7 @@ export const App = () => (
       <Route
         path={AppRoute.ProductList}
         element={
-          <PrivateRoute isAuthorazed={false}>
+          <PrivateRoute isAuthorazed>
             <ProductListPage/>
           </PrivateRoute>
         }
